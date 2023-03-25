@@ -56,3 +56,11 @@
   margin: 15px;
 
 }
+.product{
+  background-color: #61dafb;
+  padding: 15px;
+  border: 2px solid rgb(68, 154, 207);
+ border-radius: 8px;
+ box-shadow: 7px 7px 10px grey;
+  margin: 15px;
+}
