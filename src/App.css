@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  max-width: 1200px;
+  /* margin-top: 50px; */
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -35,4 +40,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+.person{
+  background-color: #61dafb;
+  padding: 15px;
+  border: 2px solid rgb(68, 154, 207);
+ 
+  margin: 15px;
+}
+.person2{
+  background-color: thistle;
+  padding: 15px;
+  border: 2px solid lightcoral;
+  
+  margin: 15px;
+
 }
